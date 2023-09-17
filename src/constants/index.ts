@@ -113,3 +113,147 @@ export const testimonials = [
 		name: "Ansu",
 	},
 ]
+
+export const footers = [
+	{
+		title: "Product",
+		children: [
+			{
+				title: "Product"
+			},
+			{
+				title: "Pricing"
+			},
+			{
+				title: "Enterprise"
+			},
+			{
+				title: "Partners"
+			},
+			{
+				title: "Affiliate"
+			},
+			{
+				title: "Integrations"
+			},
+			{
+				title: "Developers"
+			},
+			{
+				title: "Students"
+			},
+			{
+				title: "Work OS"
+			},
+		]
+	},
+	{
+		title: "Team",
+		children: [
+			{
+				title: "About Us"
+			},
+			{
+				title: "Contact Us"
+			},
+			{
+				title: "Careers"
+			},
+			{
+				title: "Find a Partner"
+			},
+			{
+				title: "In the News"
+			}
+		]
+	},
+	{
+		title: "Solutions",
+		children: [
+			{
+				title: "Project Management"
+			},
+			{
+				title: "Marketing"
+			},
+			{
+				title: "CRM and Sales"
+			},
+			{
+				title: "Software Development"
+			},
+			{
+				title: "Constructions"
+			},
+			{
+				title: "Create Production"
+			},
+			{
+				title: "Remote Work"
+			},
+			{
+				title: "HR"
+			},
+			{
+				title: "IT"
+			},
+			{
+				title: "See More Solutions"
+			}
+		]
+	},
+	{
+		title: "Resources",
+		children: [
+			{
+				title: "Knowlegde Base"
+			},
+			{
+				title: "Guides"
+			},
+			{
+				title: "Daily Webinars"
+			},
+			{
+				title: "Community"
+			},
+			{
+				title: "Customer Stories"
+			},
+			{
+				title: "Templates"
+			},
+			{
+				title: "Profesionals Services"
+			},
+			{
+				title: "Video Tutorials"
+			},
+			{
+				title: "Blog"
+			},
+			{
+				title: "Podcast"
+			}
+		]
+	}
+]
+
+export const socialmedia = [
+	{
+		src: "/assets/fb.png",
+		alt: "Facebook"
+	},
+	{
+		src: "/assets/tw.png",
+		alt: "Twitter"
+	},
+	{
+		src: "/assets/ig.png",
+		alt: "Instagram"
+	},
+	{
+		src: "/assets/yt.png",
+		alt: "Youtube"
+	}
+]
