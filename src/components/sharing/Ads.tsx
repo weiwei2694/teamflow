@@ -1,3 +1,4 @@
+// "use client";
 import { ads } from '@/constants'
 import Line from '../sub-component/Line'
 import Image from 'next/image'
@@ -15,7 +16,7 @@ const Ads = () => {
         <div className="w-full overflow-x-auto">
           <ul className="flex justify-start lg:justify-end min-w-[700px] gap-x-8 whitespace-nowrap">
             {ads.map(ad => (
-              <Image src={ad.src} alt={ad.alt} width={ad.width} height={ad.height} className="object-contain" />
+              <Image key={ad.alt} src={ad.src} alt={ad.alt} width={ad.width} height={ad.height} className="object-contain" />
             ))}
           </ul>
         </div>
