@@ -67,3 +67,26 @@ export const whatYouCanDo = [
         backgroundColor: "bg-orange-100",
 	},
 ];
+
+export const integrates = [
+    {
+        src: "/assets/integrate-1.png",
+        alt: "Integrate 1"
+    },
+    {
+        src: "/assets/integrate-2.png",
+        alt: "Integrate 2"
+    },
+    {
+        src: "/assets/integrate-3.png",
+        alt: "Integrate 3"
+    },
+    {
+        src: "/assets/integrate-4.png",
+        alt: "Integrate 4"
+    },
+    {
+        src: "/assets/integrate-5.png",
+        alt: "Integrate 5"
+    },
+]
