@@ -24,8 +24,8 @@ export default function Home() {
         <VisualizeWorkWithViews />
         <CustomerSupport />
         <ClientTestimonials />
-        <Support />
       </div>
+      <Support />
     </>
   )
 }

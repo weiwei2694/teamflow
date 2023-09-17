@@ -3,7 +3,7 @@ import './globals.css'
 import type { Metadata } from 'next'
 import { Nunito_Sans } from 'next/font/google'
 
-const font = Nunito_Sans({ subsets: ['latin'], weight: ["400", "500", "600", "700", "800"] });
+const font = Nunito_Sans({ subsets: ['latin'], weight: ["300", "400", "500", "600", "700", "800"] });
 
 export const metadata: Metadata = {
   title: 'Team Flow',
