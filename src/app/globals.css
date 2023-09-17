@@ -7,6 +7,25 @@ html,
 :root {
   height: 100%;
 }
+
+*::-webkit-scrollbar {
+	width: 8px;
+	height: 8px;
+}
+*::-webkit-scrollbar-thumb {
+	background-color: #888;
+	border-radius: 4px;
+}
+*::-webkit-scrollbar-thumb:hover {
+	background-color: #555;
+}
+*::-webkit-scrollbar-track {
+	background-color: #f1f1f1;
+	border-radius: 4px;
+}
+*::-webkit-scrollbar-track:hover {
+	background-color: #ddd;
+}
  
 @layer base {
   :root {
@@ -83,5 +102,5 @@ html,
 
 /* GLOBAL STYLING */
 .section__padding {
-  @apply px-6 md:px-12;
+  @apply px-6 xl:px-0;
 }

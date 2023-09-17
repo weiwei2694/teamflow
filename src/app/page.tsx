@@ -14,16 +14,18 @@ export default function Home() {
   return (
     <>
       <Header />
-      <Ads />
-      <WhatYouCanDo />
-      <OurFeatures />
-      <SetupInMinutes />
-      <Integrate />
-      <SaveTimeWithAutomations />
-      <VisualizeWorkWithViews />
-      <CustomerSupport />
-      <ClientTestimonials />
-      <Support />
+      <div className="xl:container mx-auto">
+        <Ads />
+        <WhatYouCanDo />
+        <OurFeatures />
+        <SetupInMinutes />
+        <Integrate />
+        <SaveTimeWithAutomations />
+        <VisualizeWorkWithViews />
+        <CustomerSupport />
+        <ClientTestimonials />
+        <Support />
+      </div>
     </>
   )
 }

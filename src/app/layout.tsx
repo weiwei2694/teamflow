@@ -18,7 +18,7 @@ export default function RootLayout({
   return (
     <html lang="en">
       <body className={font.className}>
-        <main className="xl:container mx-auto">
+        <main className="">
           {children}
           <Footer />
         </main>
