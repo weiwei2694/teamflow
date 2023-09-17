@@ -26,6 +26,12 @@ html,
 *::-webkit-scrollbar-track:hover {
 	background-color: #ddd;
 }
+
+@layer components {
+  :root {
+      --swiper-pagination-color: theme('colors.yellow-100');
+  }
+}
  
 @layer base {
   :root {

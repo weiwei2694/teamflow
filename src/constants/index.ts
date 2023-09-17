@@ -90,3 +90,26 @@ export const integrates = [
         alt: "Integrate 5"
     },
 ]
+
+export const testimonials = [
+	{
+		image: "/assets/john-doe.png",
+		name: "John Doe",
+	},
+	{
+		image: "/assets/john.png",
+		name: "John",
+	},
+	{
+		image: "/assets/maya.png",
+		name: "Maya",
+	},
+	{
+		image: "/assets/zeng.png",
+		name: "Zend",
+	},
+	{
+		image: "/assets/ansu.png",
+		name: "Ansu",
+	},
+]
