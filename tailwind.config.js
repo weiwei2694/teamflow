@@ -21,6 +21,7 @@ module.exports = {
       "light-300": "#FAFAFF",
       "light-400": "#757575",
       "yellow-100": "#FFCA1D",
+      "yellow-200": "#FED369",
       "blue-100": "#3C405F",
       "blue-200": "#5C5E87",
       "blue-300": "#686DF1",
@@ -34,7 +35,8 @@ module.exports = {
       "cyan-100": "#3ADAD9",
       "gray-100": "#606060",
       "gray-200": "#9092B0",
-      "orange-100": "#EB801D",
+      "orange-100": "#FD9B79",
+      "orange-200": "#EB801D",
     },
     extend: {
       colors: {
