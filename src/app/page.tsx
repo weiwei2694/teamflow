@@ -18,10 +18,14 @@ export default function Home() {
         <Ads />
         <WhatYouCanDo />
         <OurFeatures />
-        <SetupInMinutes />
+      </div>
+      <SetupInMinutes />
+      <div className="xl:container mx-auto">
         <Integrate />
         <SaveTimeWithAutomations />
-        <VisualizeWorkWithViews />
+      </div>
+      <VisualizeWorkWithViews />
+      <div className="xl:container mx-auto">
         <CustomerSupport />
         <ClientTestimonials />
       </div>

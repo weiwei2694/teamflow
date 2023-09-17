@@ -6,7 +6,7 @@ import Line from '../sub-component/Line'
 
 const Header = () => {
   return (
-    <div className="relative min-h-screen bg-[url(/assets/main-background.png)] bg-no-repeat bg-cover">
+    <div className="relative h-full bg-[url(/assets/main-background.png)] bg-no-repeat bg-cover">
       <div className="xl:container mx-auto h-full section__padding">
         <Navbar />
         <div className="flex flex-col-reverse lg:flex-row gap-8 h-full py-10 pt-0 lg:py-20">

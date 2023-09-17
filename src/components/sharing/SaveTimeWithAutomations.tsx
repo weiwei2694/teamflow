@@ -8,7 +8,7 @@ const SaveTimeWithAutomations = () => {
   return (
     <div className="py-10 lg:py-20 section__padding">
       <div className="flex flex-col-reverse lg:flex-row gap-8">
-        <div>
+        <div className="flex justify-center lg:justify-start">
           <Image src="/assets/save-time-with-automations.png" alt="Save Time With Automations" width={689} height={680} className="object-contain" />
         </div>
         <div className="flex-1 flex justify-end items-center">

@@ -13,7 +13,7 @@ const OurFeatures = () => {
 
     <div className="mt-8 sm:mt-16 lg:mt-32">
         <div className="flex flex-col-reverse lg:flex-row gap-8">
-          <div>
+          <div className="flex justify-center lg:justify-start">
             <Image src="/assets/features.png" alt="Our Features" width={732} height={678} className="object-contain" />
           </div>
           <div className="flex-1 flex justify-end items-center">
